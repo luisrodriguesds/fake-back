@@ -2,7 +2,7 @@ const internalTeam = [
   {
     id: "1",
     name: 'Isabella Stulp',
-    status: true,
+    status: 'ativo',
     type: '1',
     unit: '137',
     createdAt: '2020-01-02 00:00:00',
@@ -11,7 +11,7 @@ const internalTeam = [
   { 
     id:"2", 
     name: 'Gustavo Lima', 
-    status: false, 
+    status: 'inativo', 
     type: '2', 
     unit: '10' ,
     createdAt: '2020-01-02 00:00:00',
@@ -20,7 +20,7 @@ const internalTeam = [
   { 
     id:"3", 
     name: 'Gustavo Quirino', 
-    status: true, 
+    status: 'ativo', 
     type: '3', 
     unit: '14',
     createdAt: '2020-01-02 00:00:00',
@@ -29,7 +29,7 @@ const internalTeam = [
   { 
     id: "4",
     name: 'Luis Rodrigues', 
-    status: true, 
+    status: 'ativo', 
     type: '4', 
     unit: '22',
     createdAt: '2020-01-02 00:00:00',
@@ -38,7 +38,7 @@ const internalTeam = [
   { 
     id:"5",
     name: 'Flávio Lemes', 
-    status: false, 
+    status: 'inativo', 
     type: '3', 
     unit: '26',
     createdAt: '2020-01-02 00:00:00',
@@ -47,7 +47,7 @@ const internalTeam = [
   {
     id:"6",
     name: 'Wellington Santana',
-    status: false,
+    status: 'inativo',
     type: '5',
     unit: '26',
     createdAt: '2020-01-02 00:00:00',
@@ -56,7 +56,7 @@ const internalTeam = [
   { 
     id:"7", 
     name: 'Helisson Camargo', 
-    status: true, 
+    status: 'ativo', 
     type: '5', 
     unit: '11',
     createdAt: '2020-01-02 00:00:00',
@@ -65,7 +65,7 @@ const internalTeam = [
   { 
     id:"8", 
     name: 'Bruna Oliveira', 
-    status: false, 
+    status: 'inativo', 
     type: '4', 
     unit: '13',
     createdAt: '2020-01-02 00:00:00',
