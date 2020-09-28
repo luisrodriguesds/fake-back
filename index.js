@@ -240,15 +240,15 @@ app.post('/service/:usertype/providers/find', (request, response) => {
   }else if(search.type){
     const subtype = [
       {
-        id: 'institution',
+        id: 'liberal',
         label: 'Profissional Liberal',
       },
       {
-        id: 'supplier',
+        id: 'institution',
         label: 'Instituição de Ensino',
       },
       {
-        id: 'liberal',
+        id: 'supplier',
         label: 'Fornecedor de Conteúdo',
       },
     ]
