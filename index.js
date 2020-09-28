@@ -278,6 +278,6 @@ app.post('/service/provider/users', (request, response) => {
     })
   }, 1000)
 })
-app.listen(5000, () => {
+app.listen(process.env.PORT || 5000, () => {
   console.log("Its running on port 5000")
 })
